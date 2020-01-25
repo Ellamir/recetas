@@ -1,0 +1,141 @@
+body{
+    background-color:#ffffff; 
+    color:#373A3C;
+    font-family: 'Cabin', sans-serif;
+}
+
+h1{
+    font-size:2.8em;
+    font-weight: 700;
+}
+
+h2{
+    font-size:3.3em;
+}
+
+h6{
+    font-size:1.5em;
+    font-weight: 400;
+}
+
+article h5{
+
+    font-size:1.1em;
+    margin: 1em 0em;
+}
+
+
+.carousel-indicators{
+
+    top:100%;
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -60px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #DC3545;
+}
+
+
+
+.navbar-brand, footer{
+
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+}
+
+.button{
+    background-color:#DC3545; 
+    color: #ffffff;
+}
+
+.btn{
+
+    border-color:#FFFFFF;
+    width: 233px;
+}
+
+ul{
+    list-style: none; 
+    margin-left: -2.3em;
+}
+
+ol{
+
+    margin-left:-2em;
+}
+
+ol li{
+
+    margin:2em 0em;
+}
+
+.newsletter{
+
+    background-color:#dc3545;
+
+}
+
+.newsletter h5{
+
+    font-size: 3em;
+}
+
+
+@media only screen (max-width: 480px) {
+  
+
+    h1{
+        text-align: center;
+        font-size:2em;
+        font-weight: 700;
+    }
+
+    u {
+        font-size:1em;
+    }
+
+    h2{
+        text-align: center;
+        font-size:2.5em;
+    }
+
+    h3{
+        font-size:1.5em;
+    }
+
+    .img-fluid{
+
+        border-top: solid 1px #000000;
+        padding-top:1.5em;
+    }
+    
+    .newsletter h5{
+
+        font-size:2.5em;
+    }
+
+    h6{
+        font-size:2em;
+        font-weight: 400;
+    }
+    
+    
+    .tooltip {
+        display: none !important;
+     }
+
+}
